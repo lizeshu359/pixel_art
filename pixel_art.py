@@ -76,8 +76,7 @@ def plot_image(image):
 
     plt.axis('off')
     plt.imshow(image)
-    plt.show()
-    
+    plt.show()    
     
 bee = define_bee()
 plot_image(bee)
